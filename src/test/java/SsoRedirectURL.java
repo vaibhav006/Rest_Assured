@@ -12,7 +12,7 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 
 
-public class RestAssuredFirstTest {
+public class SsoRedirectURL {
     Payload payload = new Payload();
     ChecksumGenerator checksumGenerator = new ChecksumGenerator();
     AESUtils aesUtils = new AESUtils();
